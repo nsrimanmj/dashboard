@@ -152,11 +152,12 @@
             android:text="45"
             android:textStyle="bold"
             android:textSize="24sp"
+            android:layout_marginStart="8dp"
             android:layout_toEndOf="@+id/totalPickUp"/>
 
         <TextView
             android:id="@+id/amountCollected"
-            android:layout_width="55pt"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Total Amount Collected"
             android:layout_toEndOf="@+id/totalPickUpCount"
@@ -181,7 +182,8 @@
             android:textStyle="bold"
             android:textSize="14sp"
             android:layout_marginStart="12dp"
-            android:layout_toEndOf="@+id/amountCollected"/>
+            android:layout_alignParentEnd="true"
+            />
 
         <TextView
             android:id="@+id/otherAmount"
@@ -190,7 +192,7 @@
             android:text="Others $10,000"
             android:textSize="12sp"
             android:layout_marginStart="12dp"
-            android:layout_toEndOf="@+id/amountCollected"
+            android:layout_alignParentEnd="true"
             android:layout_below="@+id/amount"/>
 
 
