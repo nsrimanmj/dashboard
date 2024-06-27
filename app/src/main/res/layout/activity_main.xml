@@ -118,7 +118,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="Weather symbol"
-            android:src="@drawable/Sun_cloud_angled_rain"
+            android:src="@drawable/sun_cloud_angled_rain"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"/>
 
