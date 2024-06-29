@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/document_text"
+        android:iconTint="@color/black"
+        />
+
+    <item
+        android:id="@+id/estimator"
+        android:title="Estimator"
+        android:icon="@drawable/element_equal"
+        android:iconTint="@color/black"
+
+        />
+    <item
+        android:id="@+id/empty"
+        android:title=""
+        android:enabled="false"
+
+        />
+    <item
+        android:id="@+id/print"
+        android:title="Print"
+        android:icon="@drawable/printer"
+        android:iconTint="@color/black"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/shop"
+        android:iconTint="@color/black"
+        />
+</menu>
